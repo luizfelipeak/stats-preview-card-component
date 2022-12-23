@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <main>
+    <div class="card">
+      <picture class="card__img">
+        <source media="(min-width: 700px)" srcset="images/image-header-desktop.jpg">
+        <img src="images/image-header-mobile.jpg" alt="Purple image of a office with three ladies working.">
+      </picture>
+
+      <div class="card__content">
+        <h1 class="card__content__title">Get <span>insights</span> that help your business grow.</h1>
+
+        <p class="card__content__text">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+      
+        <div class="card__content__data">
+          <div class="card__content__data__element">
+            <p class="visually-hidden">10000 plus</p>
+            <p class="card__content__data__element__number" aria-hidden="true">10k+</p>
+            <p class="card__content__data__element__info">COMPANIES</p>
+          </div>
+          
+          <div class="card__content__data__element">
+            <p class="card__content__data__element__number">314</p> 
+            <p class="card__content__data__element__info">TEMPLATES</p>
+          </div>
+          
+          <div class="card__content__data__element">
+            <p class="visually-hidden">12 million plus</p>
+            <p class="card__content__data__element__number" aria-hidden="true">12M+</p>
+            <p class="card__content__data__element__info">QUERIES</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/luizfelipeak" target="_blank">LuizFelipeAK</a>.
+    </div>
+  </footer>
+</body>
+</html>
